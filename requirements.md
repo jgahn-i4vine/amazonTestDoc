@@ -56,6 +56,13 @@ $ sqlite3 -version
 
 ### nghttp2
 
+nghttp2는 1.0 이상을 요구한다. 
+
+```
+$ mkdir -p ~/workspaces && cd ~/workspaces
+$ git clone https://github.com/nghttp2/nghttp2.git
+```
+
 ### 
 
 ### libcurl
