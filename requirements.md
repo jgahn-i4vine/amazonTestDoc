@@ -12,6 +12,7 @@ $ cd cmake
 $ ./bootstrap
 $ make
 $ sudo make install
+$ cmake --version
 ```
 
 
