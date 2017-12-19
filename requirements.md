@@ -34,5 +34,51 @@ $ sudo ldconfig
 $ openssl version
 ```
 
+### 
+
+### SQLite
+
+### 
+
+### nghttp2
+
+### 
+
+### libcurl
+
+### 
+
+### Doxygen
+
+### 
+
+### GStreamer
+
+##### Base Plugins
+
+##### Good Plugins
+
+##### Libav Plugin
+
+##### Ugly Plugins
+
+##### Bad Plugins
+
+### 
+
+### PortAudio
+
+### 
+
+### Libgcrypt
+
+### 
+
+### libsoup
+
+### 
+
+### libfaad-dev
+
 
 
