@@ -23,12 +23,15 @@ AVS Device SDK는 C++11 이후 문법을 사용한다. GCC의 경우 5.1 버전 
 처음 우분투를 설치한 경우 다음 유틸리티가 필요하다.
 
 * Git
+
   ```
   $ sudo apt install git
   ```
 
 * Python 라이브러리 - flask, requests
+
   ```
+  $ sudo apt install python-pip
   $ pip install --user flask requests
   ```
 
