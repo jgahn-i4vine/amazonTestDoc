@@ -10,6 +10,8 @@ $ cd ~/workspaces
 $ git clone https://gitlab.kitware.com/cmake/cmake.git
 $ cd cmake
 $ ./bootstrap
+$ make
+$ sudo make install
 ```
 
 
