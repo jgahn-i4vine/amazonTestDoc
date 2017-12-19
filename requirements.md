@@ -62,13 +62,30 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 
 ##### cunit
 
+```
+$ mkdir -p ~/workspaces && cd ~/workspaces
+$ wget https://downloads.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.tar.bz2
+```
+
 ##### libev
 
-##### zlib 
+##### zlib
 
-##### libc-ares 
+##### libc-ares
 
-##### libxml2 libsystemd-dev jansson libevent-openssl jemalloc libboost-dev libboost-thread-dev 
+##### libxml2
+
+##### libsystemd-dev
+
+##### jansson
+
+##### libevent-openssl
+
+##### jemalloc
+
+##### libboost-dev
+
+##### libboost-thread-dev
 
 ```
 $ mkdir -p ~/workspaces && cd ~/workspaces
