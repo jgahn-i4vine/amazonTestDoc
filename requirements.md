@@ -30,6 +30,8 @@ $ ./config
 $ make
 $ make test
 $ sudo make install
+$ sudo ldconfig
+$ openssl version
 ```
 
 
