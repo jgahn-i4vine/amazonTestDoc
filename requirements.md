@@ -56,11 +56,24 @@ $ sqlite3 -version
 
 ### nghttp2
 
-nghttp2는 1.0 이상을 요구한다. 
+nghttp2는 1.0 이상을 요구한다.
+
+nghttp2의 추가 요구 사항은 다음과 같다.
+
+##### cunit
+
+##### libev
+
+##### zlib 
+
+##### libc-ares 
+
+##### libxml2 libsystemd-dev jansson libevent-openssl jemalloc libboost-dev libboost-thread-dev 
 
 ```
 $ mkdir -p ~/workspaces && cd ~/workspaces
 $ git clone https://github.com/nghttp2/nghttp2.git
+$ cd nghttp2
 ```
 
 ### 

@@ -36,5 +36,10 @@ AVS Device SDK는 C++11 이후 문법을 사용한다. GCC의 경우 5.1 버전 
   $ pip install --user flask requests
   ```
 
+* Cython
+  ```
+  $ sudo apt install cython
+  ```
+
 
 
