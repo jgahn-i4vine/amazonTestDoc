@@ -38,6 +38,20 @@ $ openssl version
 
 ### SQLite
 
+SQLite는 3.19.3 이상을 요구한다. 본 문서에 사용한 SQLite 버전은 3.21.0 이다.
+
+```
+$ mkdir -p ~/workspaces && cd ~/workspaces
+$ wget https://www.sqlite.org/2017/sqlite-autoconf-3210000.tar.gz
+$ tar xvf SQLite-autoconf-3210000.tar.gz
+$ cd SQLite-autoconf-3210000
+$ ./configure
+$ make
+$ sudo make install
+$ sudo ldconfig
+$ sqlite3 -version
+```
+
 ### 
 
 ### nghttp2
