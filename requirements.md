@@ -181,6 +181,8 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > $ cd boost
 > $ ./bootstrap.sh
 > $ ./b2
+> $ sudo ./b2 install
+> $ sudo ldconfig
 > ```
 
 ##### 
