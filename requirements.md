@@ -179,7 +179,7 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > $ cd $WS
 > $ git clone --recursive https://github.com/boostorg/boost.git
 > $ cd boost
->
+> $ ./bootstrap.sh
 > ```
 
 ##### 
