@@ -163,6 +163,16 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 >
 > ##### jemalloc
 >
+> ```
+> $ cd $WS
+> $ cd jemalloc
+> $ ./autogen.sh
+> $ make dist
+> $ make
+> $ sudo make install
+> $ sudo ldconfig
+> ```
+>
 > ##### libboost-dev
 >
 > ##### libboost-thread-dev
