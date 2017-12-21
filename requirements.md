@@ -165,6 +165,7 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 >
 > ```
 > $ cd $WS
+> $ git clone https://github.com/jemalloc/jemalloc.git
 > $ cd jemalloc
 > $ ./autogen.sh
 > $ make
@@ -172,7 +173,12 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > $ sudo ldconfig
 > ```
 >
-> ##### libboost-dev
+> ##### libboost
+>
+> ```
+> $ cd $WS
+> $ 
+> ```
 >
 > ##### libboost-thread-dev
 
