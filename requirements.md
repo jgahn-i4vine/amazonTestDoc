@@ -220,6 +220,7 @@ $ sudo ldconfig
 ```
 $ cd $WS
 $ git clone git://anongit.freedesktop.org/gstreamer/gstreamer
+$ cd gstreamer
 ```
 
 ##### Base Plugins
