@@ -122,6 +122,7 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > $ make
 > $ make ahost adig acountry
 > $ sudo make install
+> $ sudo ldconfig
 > ```
 >
 > ##### libxml2
