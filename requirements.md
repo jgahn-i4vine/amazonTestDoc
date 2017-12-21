@@ -136,9 +136,14 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > $ sudo make install
 > ```
 >
-> ##### libsystemd-dev
->
 > ##### jansson
+>
+> ```
+> $ cd $WS
+> $ git clone https://github.com/akheron/jansson
+> $ cd jansson
+> $ ./release.sh
+> ```
 >
 > ##### libevent-openssl
 >

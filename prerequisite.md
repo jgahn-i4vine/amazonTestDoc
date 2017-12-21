@@ -42,18 +42,20 @@ AVS Device SDK는 C++11 이후 문법을 사용한다. GCC의 경우 5.1 버전 
   $ sudo apt install cython
   ```
 
-* libtool, m4, automke
-
-```
-$ sudo apt install libtool m4 automake
-```
+* libtool, m4, automake
+  ```
+  $ sudo apt install libtool m4 automake
+  ```
 
 * libsystemd-dev
   ```
   $ sudo apt install libsystemd-dev
   ```
 
-### 
+* Documentation tools
+  ```
+  $ sudo apt install python-sphinx doxygen graphviz
+  ```
 
 ### 디렉토리
 
