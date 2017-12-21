@@ -157,7 +157,6 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > $ mkdir libevent/build && cd libevent/build
 > $ cmake ..
 > $ make
-> $ make verify
 > $ sudo make install
 > $ sudo ldconfig
 > ```
