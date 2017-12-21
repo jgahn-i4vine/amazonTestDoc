@@ -231,9 +231,11 @@ $ sudo ldconfig
 ##### Base Plugins
 
 ```
+$ sudo apt install 
 $ cd $WS
 $ git clone git://anongit.freedesktop.org/gstreamer/gst-plugins-base
 $ cd gst-plugins-base
+$ ./autogen.sh
 $ 
 ```
 
