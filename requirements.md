@@ -185,17 +185,29 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > $ sudo ldconfig
 > ```
 
-##### 
-
 ```
 $ cd $WS
 $ git clone https://github.com/nghttp2/nghttp2.git
 $ cd nghttp2
+$ autoreconf -i
+$ automake
+$ autoconf
+$ ./configure
+$ make
+$ sudo make install
+$ sudo ldconfig
 ```
 
 ### 
 
 ### libcurl
+
+```
+$ cd $WS
+$ git clone https://github.com/curl/curl.git
+$ cd curl
+
+```
 
 ### 
 
