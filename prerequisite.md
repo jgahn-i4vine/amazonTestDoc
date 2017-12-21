@@ -44,11 +44,14 @@ AVS Device SDK는 C++11 이후 문법을 사용한다. GCC의 경우 5.1 버전 
 
 ### 
 
-### Directory
+### 디렉토리
 
+본 문서에서 사용하는 디렉토리는 아래와 같이 정의하고 사용한다.
 
-
-
+```
+$ export WS=$HOME/workspaces
+$ mkdir -p $WS
+```
 
 
 

@@ -7,7 +7,7 @@
 CMake는 3.1 이상을 요구한다. Ubuntu의 apt로 cmake를 설치해도 3.5.1 버전이 설치되므로 그대로 사용해도 무방하지만, 여기에서는 직접 빌드 한다. 본 문서에 사용한 cmake 버전은 3.10.20171218 이다.
 
 ```
-$ mkdir -p ~/workspaces && cd ~/workspaces
+$ cd $WS
 $ git clone https://gitlab.kitware.com/cmake/cmake.git
 $ cd cmake
 $ ./bootstrap
@@ -23,7 +23,7 @@ $ cmake --version
 OpenSSL은 1.0.2 이상을 요구한다. Ubuntu 16.04.3에 이미 1.0.2g 버전이 설치되어 그대로 사용해도 되지만, 여기서는 직접 빌드한다. 본 문서에 사용한 OpenSSL 버전은 1.1.1-dev 이다.
 
 ```
-$ mkdir -p ~/workspaces && cd ~/workspaces
+$ cd $WS
 $ git clone https://github.com/openssl/openssl.git
 $ cd openssl
 $ ./config
@@ -41,7 +41,7 @@ $ openssl version
 SQLite는 3.19.3 이상을 요구한다. 본 문서에 사용한 SQLite 버전은 3.21.0 이다.
 
 ```
-$ mkdir -p ~/workspaces && cd ~/workspaces
+$ cd $WS
 $ wget https://www.sqlite.org/2017/sqlite-autoconf-3210000.tar.gz
 $ tar xvf SQLite-autoconf-3210000.tar.gz
 $ cd SQLite-autoconf-3210000
@@ -63,7 +63,7 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 ##### cunit
 
 ```
-$ mkdir -p ~/workspaces && cd ~/workspaces
+$ cd $WS
 $ wget https://downloads.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.tar.bz2
 ```
 
@@ -88,7 +88,7 @@ $ wget https://downloads.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.t
 ##### libboost-thread-dev
 
 ```
-$ mkdir -p ~/workspaces && cd ~/workspaces
+$ cd $WS
 $ git clone https://github.com/nghttp2/nghttp2.git
 $ cd nghttp2
 ```
