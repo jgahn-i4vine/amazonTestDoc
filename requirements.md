@@ -167,7 +167,7 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > $ cd $WS
 > $ cd jemalloc
 > $ ./autogen.sh
-> $ make dist
+> $ ./configure
 > $ make
 > $ sudo make install
 > $ sudo ldconfig
