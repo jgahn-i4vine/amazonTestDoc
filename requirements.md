@@ -64,8 +64,6 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 
 ```
 $ cd $WS
-$ git clone git://git.savannah.gnu.org/libtool.git
-$ cd libtool
 $ wget https://downloads.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.tar.bz2
 $ tar xvf CUnit-2.1-3.tar.bz2
 $ cd CUnit-2.1-3
