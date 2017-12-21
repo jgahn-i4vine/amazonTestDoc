@@ -218,12 +218,24 @@ $ sudo ldconfig
 ### GStreamer
 
 ```
+$ sudo apt install bison flex gtk-doc-tools
 $ cd $WS
 $ git clone git://anongit.freedesktop.org/gstreamer/gstreamer
 $ cd gstreamer
+$ ./autogen.sh
+$ make
+$ sudo make install
+$ sudo ldconfig
 ```
 
 ##### Base Plugins
+
+```
+$ cd $WS
+$ git clone git://anongit.freedesktop.org/gstreamer/gst-plugins-base
+$ cd gst-plugins-base
+$ 
+```
 
 ##### Good Plugins
 
