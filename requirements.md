@@ -208,6 +208,9 @@ $ git clone https://github.com/curl/curl.git
 $ cd curl
 $ ./buildconf
 $ ./configure
+$ make
+$ sudo make install
+$ sudo ldconfig
 ```
 
 ### 
