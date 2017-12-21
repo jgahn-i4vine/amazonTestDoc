@@ -206,7 +206,8 @@ $ sudo ldconfig
 $ cd $WS
 $ git clone https://github.com/curl/curl.git
 $ cd curl
-
+$ ./buildconf
+$ ./configure
 ```
 
 ### 
