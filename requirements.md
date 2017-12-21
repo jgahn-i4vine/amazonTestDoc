@@ -127,6 +127,15 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 >
 > ##### libxml2
 >
+> ```
+> $ cd $WS
+> $ git clone git://git.gnome.org/libxml2
+> $ cd libxml2
+> $ ./autogen.sh
+> $ make
+> $ sudo make install
+> ```
+>
 > ##### libsystemd-dev
 >
 > ##### jansson
