@@ -7,8 +7,7 @@
 ```
 $ cd $WS
 $ git clone https://github.com/google/googletest.git
-$ mkdir googletest/build
-$ cd googletest/build
+$ mkdir googletest/build && cd googletest/build
 $ cmake -Dgtest_build_samples=ON -Dgtest_build_tests=ON ..
 $ make
 $ make test
@@ -155,6 +154,7 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > ```
 > $ cd $WS
 > $ git clone https://github.com/libevent/libevent.git
+> $ mkdir libevent/build && cd libevent/build
 > ```
 >
 > ##### jemalloc
