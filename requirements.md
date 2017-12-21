@@ -134,6 +134,7 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > $ ./autogen.sh
 > $ make
 > $ sudo make install
+> $ sudo ldconfig
 > ```
 >
 > ##### jansson
@@ -142,7 +143,11 @@ nghttp2의 추가 요구 사항은 다음과 같다.
 > $ cd $WS
 > $ git clone https://github.com/akheron/jansson
 > $ cd jansson
-> $ ./release.sh
+> $ autoreconf -i
+> $ ./configure
+> $ make
+> $ sudo make install
+> $ sudo ldconfig
 > ```
 >
 > ##### libevent-openssl
@@ -162,10 +167,6 @@ $ cd nghttp2
 ### 
 
 ### libcurl
-
-### 
-
-### Doxygen
 
 ### 
 
@@ -199,7 +200,7 @@ $ cd nghttp2
 
 ### 
 
-### Google Test
+### 
 
 
 
