@@ -60,34 +60,59 @@ nghttp2는 1.0 이상을 요구한다.
 
 nghttp2의 추가 요구 사항은 다음과 같다.
 
-##### cunit
-
-```
-$ cd $WS
-$ wget https://downloads.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.tar.bz2
-$ tar xvf CUnit-2.1-3.tar.bz2
-$ cd CUnit-2.1-3
-```
-
-##### libev
-
-##### zlib
-
-##### libc-ares
-
-##### libxml2
-
-##### libsystemd-dev
-
-##### jansson
-
-##### libevent-openssl
-
-##### jemalloc
-
-##### libboost-dev
-
-##### libboost-thread-dev
+> ##### cunit
+>
+> ```
+> $ cd $WS
+> $ wget https://downloads.sourceforge.net/project/cunit/CUnit/2.1-3/CUnit-2.1-3.tar.bz2
+> $ tar xvf CUnit-2.1-3.tar.bz2
+> $ cd CUnit-2.1-3
+> $ ./bootstrap
+> $ ./configure
+> $ make
+> $ sudo make install
+> ```
+>
+> ##### libev
+>
+> ```
+> $ cd $WS
+> $ git clone https://github.com/enki/libev.git
+> $ cd libev
+> $ ./configure
+> $ make
+> $ sudo make install
+> $ sudo ldconfig
+> ```
+>
+> ##### zlib
+>
+> ```
+> $ cd $WS
+> $ wget https://downloads.sourceforge.net/project/libpng/zlib/1.2.11/zlib-1.2.11.tar.gz
+> $ tar xvf zlib-1.2.11.tar.gz
+> $ cd zlib-1.2.11
+> $ ./configure
+> $ make
+> $ sudo make install
+> $ sudo ldconfig
+> ```
+>
+> ##### libc-ares
+>
+> ##### libxml2
+>
+> ##### libsystemd-dev
+>
+> ##### jansson
+>
+> ##### libevent-openssl
+>
+> ##### jemalloc
+>
+> ##### libboost-dev
+>
+> ##### libboost-thread-dev
 
 ```
 $ cd $WS
