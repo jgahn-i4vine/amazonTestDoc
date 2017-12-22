@@ -231,7 +231,7 @@ $ sudo ldconfig
 ##### Base Plugins
 
 ```
-$ sudo apt install vorbis-tools libasound2-dev
+$ sudo apt install vorbis-tools libasound2-dev libx11-dev
 $ cd $WS
 $ git clone git://anongit.freedesktop.org/gstreamer/gst-plugins-base
 $ cd gst-plugins-base
