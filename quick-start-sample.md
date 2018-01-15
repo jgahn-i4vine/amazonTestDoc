@@ -1,6 +1,18 @@
 # Quick Start Guide - Sample App
 
-##### 본 문서는 alexa-avs-sample-app을 PC에서 가능한 패키지 설치를 통해 빨리 빌드하는 방법에 대해 기술한다.
+**본 문서는 alexa-avs-sample-app을 PC에서 가능한 패키지 설치를 통해 빨리 빌드하는 방법에 대해 기술한다.**
+
+- [환경](#환경)
+- [사용 디렉토리](#사용-디렉토리)
+- [필요 유틸리티 설치 및 사전 설정](#필요-유틸리티-설치-및-사전-설정)
+- [alexa-avs-sample-app 다운로드](#alexa-avs-sample-app-다운로드)
+- [인증 정보 생성](#인증-정보-생성)
+    - [ssl.cnf 파일 수정](#sslcnf-파일-수정)
+    - [인증 생성 스크립트 실행](#인증-생성-스크립트-실행)
+    - [Node.js 서버 설정](#nodejs-서버-설정)
+    - [앱 설정](#앱-설정)
+- [Node.js 서버 실행](#nodejs-서버-실행)
+- [Sample App 실행](#sample-app-실행)
 
 ### 환경
 이 문서의 작업 환경은 다음과 같다.
