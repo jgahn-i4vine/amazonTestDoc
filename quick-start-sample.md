@@ -32,7 +32,7 @@ cd $WS
 ### 필요 유틸리티 설치 및 사전 설정
 큰 문제 없이 진행 하기 위해 `npm`, `nodejs`, `jdk`, `maven`, `openssl`이 필요하다. 그냥 패키지 매니저를 사용해 설치해도 큰 문제는 없을 것 같다.
 ```sh
-sudo apt install npm nodejs openjdk-8-jdk maven openssl
+sudo apt install npm nodejs nodejs-legacy openjdk-8-jdk maven openssl
 ```
 다만, 필자는 다른 문제가 생겨 `npm`과 `nodejs`는 따로 설치하였다. `npm`은 `node`에 포함되어 있어 사실상 `node`만 [github](https://github.com/nodejs/node)에서 받아 설치하였다.
 ```sh
